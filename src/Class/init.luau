@@ -1,4 +1,8 @@
-export type Class<Body, Impl> = typeof(setmetatable({} :: Body, {} :: Impl))
+export type ClassImpl<Extend> = {
+	__index: ClassImpl<Extend>,
+} & Extend
+
+export type Class<Body, ImplExtend> = typeof(setmetatable({} :: Body, {} :: ClassImpl<ImplExtend>))
 
 export type ClassConstructor<Class> = () -> Class
 
