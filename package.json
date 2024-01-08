@@ -1,0 +1,27 @@
+{
+    "name": "@mathfox/rbx-polyfill-luau",
+    "version": "0.1.0",
+    "description": "Polyfills for the Luau language in Roblox environment.",
+    "main": "src/init.luau",
+    "scripts": {
+        "prepare": "npmluau"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mathfox/rbx-polyfill-luau.git"
+    },
+    "keywords": [
+        "luau",
+        "polyfill"
+    ],
+    "author": "Ivan Leontev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mathfox/rbx-polyfill-luau/issues"
+    },
+    "homepage": "https://github.com/mathfox/rbx-polyfill-luau#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "npmluau": "^0.1.0"
+    }
+}
