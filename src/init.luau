@@ -1,5 +1,9 @@
 local Class = require("Class")
 
-return {
+local exports = {
 	Class = Class,
 }
+
+table.freeze(exports)
+
+return exports
