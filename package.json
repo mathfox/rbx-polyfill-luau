@@ -1,6 +1,6 @@
 {
     "name": "@mathfox/rbx-polyfill-luau",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Polyfills for the Luau language in Roblox environment.",
     "main": "src/init.luau",
     "scripts": {
